@@ -1,0 +1,27 @@
+# LangChain + LangGraph Masterclass - All Dependencies
+# Install: pip install -r requirements.txt
+
+# ── Core Frameworks ──────────────────────────────────────────
+langchain==0.2.16               # Core LangChain framework
+langchain-core==0.2.38          # Base abstractions (Runnable, LCEL)
+langchain-community==0.2.16     # Community integrations
+langgraph==0.2.14               # Graph-based agent framework
+langchain-groq==0.1.9           # Groq LLM (FREE: console.groq.com)
+
+# ── Embeddings (FREE, local) ─────────────────────────────────
+langchain-huggingface==0.0.3    # HuggingFace embeddings
+sentence-transformers==3.0.1    # Local embedding models
+
+# ── Vector Stores ────────────────────────────────────────────
+faiss-cpu==1.8.0                # FAISS vector store
+chromadb==0.5.3                 # ChromaDB vector store
+
+# ── Document Processing ──────────────────────────────────────
+pypdf==4.2.0                    # PDF loading
+unstructured==0.14.9            # Various doc formats
+beautifulsoup4==4.12.3          # Web scraping
+
+# ── Utilities ────────────────────────────────────────────────
+python-dotenv==1.0.1            # Load .env files
+pydantic==2.7.1                 # Data validation
+rich==13.7.1                    # Beautiful terminal output
