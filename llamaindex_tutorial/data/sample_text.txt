@@ -1,0 +1,5 @@
+LlamaIndex is an open-source framework designed to help you build applications using large language models (LLMs). It provides tools to ingest, structure, and access private or domain-specific data so that LLMs can accurately answer questions about it. This process is generally known as Retrieval-Augmented Generation (RAG).
+
+The core components of LlamaIndex include Data Connectors (which read data from files, APIs, and databases), Indexes (which structure the data into formats like vector embeddings), Retrievers (which find the most relevant pieces of data for a given user query), and Query Engines (which combine the retrieved text with the user query to generate a final answer using an LLM).
+
+By using LlamaIndex, developers can easily connect their custom data sources to advanced AI models without having to build complex indexing and retrieval systems from scratch.
